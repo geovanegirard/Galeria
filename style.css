@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(33, 147, 155);
+    background-repeat: no-repeat;
+    
+}
+
+header img{
+    width: 500px;
+    height: 180px;
+}
+
+header img:hover {
+    cursor: pointer;
+    width: 550px;
+    height: 200px;
+    transition: .5s ease;
+}
+
+section {
+    display: flex;
+
+    width: 500px;
+    height: 450px;
+}
+
+section img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
