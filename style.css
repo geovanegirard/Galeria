@@ -10,13 +10,14 @@ body {
 header img{
     width: 500px;
     height: 180px;
+    transition: 0.5s;
 }
 
 header img:hover {
     cursor: pointer;
     width: 550px;
     height: 200px;
-    transition: .5s ease;
+    transition: 0.5s ease;
 }
 
 section {
@@ -30,8 +31,8 @@ section img{
     width: 0;
     flex-grow: 1;
     object-fit: cover;
-    opacity: .8;
-    transition: .5s ease;
+    opacity: 0.8;
+    transition: 0.5s ease;
 }
 section img:hover {
     cursor: crosshair;
